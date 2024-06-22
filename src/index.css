@@ -1,3 +1,166 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import "@fontsource/poppins";
+@import "@fontsource/poppins/600";
+@import "@fontsource/poppins/700";
+@import "@fontsource/roboto/400";
+@import "@fontsource/roboto";
+@import "@fontsource/roboto/600";
+@import "@fontsource/roboto/700";
+
+
+:root {
+    --font-heading: "Poppins", serif;
+    --font-body: "Roboto", sans-serif;
+    --font-decoration: "Poppins", sans-serif;
+    --section-padding: 3em;
+  
+    --small-padding: 2rem;
+  }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-body);
+  }
+  
+  html {
+    min-height: 100%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+  }
+  
+  img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+  
+  .wrapper {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+  
+  @media only screen and (max-width: 1140px) {
+    .wrapper {
+      max-width: 100%;
+      padding: 0 40px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .wrapper {
+      padding: 0 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+    .wrapper {
+      padding: 0 15px;
+    }
+  }
+
+  body {
+    font-family: var(--font-body);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--accent);
+  
+    background-color: var(--background);
+  }
+  
+  button,
+  .btn {
+    outline: none;
+    border: none;
+    padding: 1em 2em;
+    border-radius: 2em;
+    cursor: pointer;
+  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  
+  a,
+  input,
+  textarea,
+  p,
+  span,
+  select,
+  li {
+    font-family: var(--font-body);
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading);
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+  
+  h1 {
+    font-size: 56px;
+    line-height: 66px;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    font-size: 40px;
+    line-height: 47px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  
+  .small-text {
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  .semi-bold {
+    font-weight: 600;
+  }
+  
+  .bold {
+    font-weight: 700;
+  }
+  
+  /* width and height */
+  ::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px var(--primary-500);
+    border-left: 0.1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary-500);
+    border: 3px solid var(--primary-500);
+    border-radius: 15px;
+  }
