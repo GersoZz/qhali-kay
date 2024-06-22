@@ -1,7 +1,11 @@
+import Navbar from "./components/Navbar";
+import DashboardPage from "./pages/DashboardPage";
+
 function App() {
   return (
     <main>
-      <h1>Hola</h1>
+      <Navbar />
+      <DashboardPage />
     </main>
   );
 }
