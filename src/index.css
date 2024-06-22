@@ -1,24 +1,16 @@
+/* index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import "@fontsource/poppins";
-@import "@fontsource/poppins/600";
-@import "@fontsource/poppins/700";
-@import "@fontsource/roboto/400";
-@import "@fontsource/roboto";
-@import "@fontsource/roboto/600";
-@import "@fontsource/roboto/700";
-
-
+/* Configuración de variables CSS */
 :root {
-    --font-heading: "Poppins", serif;
-    --font-body: "Roboto", sans-serif;
-    --font-decoration: "Poppins", sans-serif;
-    --section-padding: 3em;
-  
-    --small-padding: 2rem;
-  }
+  --font-heading: "Poppins", serif;
+  --font-body: "Roboto", sans-serif;
+  --font-decoration: "Poppins", sans-serif;
+  --section-padding: 3em;
+}
+
 
 * {
     box-sizing: border-box;

@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        heading: ['Poppins', 'serif'],
+        body: ['Roboto', 'sans-serif'],
+        decoration: ['Poppins', 'sans-serif'],
+      },
       colors: {
         primary: {
           50: '#E6FFF5',
