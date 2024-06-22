@@ -1,4 +1,3 @@
-import React from 'react';
 import { Fire } from '../svgs/Fire';
 
 const data = {
