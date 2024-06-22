@@ -5,14 +5,14 @@ import Profile from "../components/Dashboard/Profile";
 
 function DashboardPage() {
   return (
-    <div>
+    <main className="flex h-full">
       <Profile />
       <Metrics />
       <div>
         <Agenda />
         <Beneficios />
       </div>
-    </div>
+    </main>
   );
 }
 

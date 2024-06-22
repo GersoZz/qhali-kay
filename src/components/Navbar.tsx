@@ -4,7 +4,7 @@ import RimacLogo from "./svgs/RimacLogo";
 
 function Navbar() {
   return (
-      <div className="wrapper flex gap-16 items-center min-h-20 max-w-120">
+      <div className="wrapper flex gap-16 items-center min-h-20 w-full ">
       <div className="logos flex  gap-8 justify-center items-center">
         <EstarBienLogo />
         <RimacLogo />
