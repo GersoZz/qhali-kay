@@ -9,6 +9,7 @@
   --font-body: "Roboto", sans-serif;
   --font-decoration: "Poppins", sans-serif;
   --section-padding: 3em;
+  --background: #ECEDF9;
 }
 
 
@@ -69,7 +70,6 @@
     background-color: var(--background);
   }
   
-  button,
   .btn {
     outline: none;
     border: none;
