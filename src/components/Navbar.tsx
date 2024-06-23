@@ -19,8 +19,8 @@ function Navbar() {
           </ul>
 
         <div className="profile flex gap-4 items-center">
-          <div className="avatar rounded-full p-2 bg-green-400 min-h-14 min-w-14 justify-center items-center">
-          </div>
+          <img src={"https://picsum.photos/200/300"} className="avatar rounded-full p-1 bg-green-400 h-14 w-14 justify-center items-center">
+          </img>
 
           <div className="name">
             <p>John Doe</p>

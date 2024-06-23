@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-qhalikay-dev-dbf4c-authRole",
+      "UnauthRoleArn": "arn:aws:iam::471112909848:role/amplify-qhalikay-dev-dbf4c-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::471112909848:role/amplify-qhalikay-dev-dbf4c-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-qhalikay-dev-dbf4c-deployment",
+      "UnauthRoleName": "amplify-qhalikay-dev-dbf4c-unauthRole",
+      "StackName": "amplify-qhalikay-dev-dbf4c",
+      "StackId": "arn:aws:cloudformation:us-east-2:471112909848:stack/amplify-qhalikay-dev-dbf4c/3c453fb0-30e5-11ef-9989-066ce9fb6301",
+      "AmplifyAppId": "dcrr9rnbig4ik"
+    },
+    "categories": {
+      "api": {
+        "qhalikay": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dcrr9rnbig4ik",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
