@@ -21,17 +21,17 @@ const MetricsButton: React.FC<MetricsButtonProps> = ({ text, onClick }) => {
 };
 
 function Metrics() {
-  const [metric, setMetric] = useState<string>("aprendizaje");
+  const [metric, setMetric] = useState<string>("reporte");
 
   return (
-    <div>
+    <div className="p-3">
       <div>
+        {/* prettier-ignore */}
+        <MetricsButton text="Reportes" onClick={() => {setMetric("reporte")}} />
         {/* prettier-ignore */}
         <MetricsButton text="Aprendizaje" onClick={() => { setMetric("aprendizaje")}} />
         {/* prettier-ignore */}
         <MetricsButton text="Estadísticas" onClick={() => {setMetric("estadisticas")}} />
-        {/* prettier-ignore */}
-        <MetricsButton text="Reportes" onClick={() => {setMetric("reporte")}} />
       </div>
 
       {metric === "aprendizaje" && <Aprendizaje />}

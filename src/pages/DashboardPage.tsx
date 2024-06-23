@@ -5,10 +5,10 @@ import Profile from "../components/Dashboard/Profile";
 
 function DashboardPage() {
   return (
-    <main className="flex h-full">
+    <main className="flex h-full justify-between mr-60">
       <Profile />
       <Metrics />
-      <div>
+      <div className="mt-16">
         <Agenda />
         <Beneficios />
       </div>
